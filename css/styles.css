@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+background-color: rgba(100, 200, 1, 0.5);
+color: rgb(206, 64, 64);
+padding: 20px;
+text-align: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+h1, h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+section{
+    padding: 20px;
+    margin: 20px;
+
+    justify-content: space-around;
+
+}
+
+article img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.lead{
+    background-color: red;
+}
+
+#bern{
+    background-color: yellow;
+}
+
+#sport{
+    background-color: pink;
+}
+
+#nachhaltigkeit{
+    background-color: green;
+}
+
+.ressort{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
